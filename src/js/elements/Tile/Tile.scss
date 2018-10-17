@@ -1,4 +1,11 @@
 .tile {
   border: 1px solid #ccc;
-  height: 50px;
+  margin: 1px;
+
+  &::before {
+    content: '';
+    display: block;
+    padding: 50% 0;
+    width: 100%;
+  }
 }

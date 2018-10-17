@@ -79,9 +79,6 @@ class TilesCreator extends React.Component {
           />
         )}
       </div>
-      <div className={tileWrapperCn.toString()}>
-        { tiles }
-      </div>
       {!isEmpty(tiles) && 
       <div className={cn('buttons').toString()}>
         <Button 
@@ -89,6 +86,9 @@ class TilesCreator extends React.Component {
           onClickButton={() => this.changeAllToDefault()}
         />
       </div>}
+      <div className={tileWrapperCn.toString()}>
+        { tiles }
+      </div>
     </div>
   }
 }

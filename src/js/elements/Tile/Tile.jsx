@@ -68,9 +68,10 @@ class Tile extends React.Component {
   render() {
     const { color } = this.state;
     const columns = this.props.columns || 1;
+    const width = `calc(${100 / columns}% - 2px)`;
     const tileStyle = {
       background: color,
-      width: `${100 / columns}%`
+      width
     }
 
     return (
