@@ -1,0 +1,18 @@
+.tiles-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tiles-creator {
+  &__header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+  }
+}

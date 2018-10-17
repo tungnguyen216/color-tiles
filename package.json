@@ -1,0 +1,35 @@
+{
+  "name": "xuanphuocfilm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@bitbucket.org:tungekino/xuanphuocfilm.git",
+  "author": "Thanh-Tung Nguyen <thanh-tung.nguyen@ekino.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html/",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@storybook/addon-knobs": "^3.4.6",
+    "bem-cn": "^3.0.1",
+    "lodash": "^4.17.11",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "sass-loader": "^7.0.1",
+    "storybook-router": "^0.3.4"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.6",
+    "@storybook/addon-links": "^3.4.6",
+    "@storybook/addons": "^3.4.6",
+    "@storybook/react": "^3.4.6",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.8.1"
+  }
+}
